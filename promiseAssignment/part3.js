@@ -31,18 +31,7 @@ promise
             }, 10000);
         });
     })
-    .then((message// 
-        // output
-        // Program started
-        // Program in progress...
-        // Promise pending: Promise 
-        // ERROR!
-        // Resolved value (first chain): { data: 'Hello, friend!', error: null }
-        // ERROR!
-        // Resolved value (second chain): { data: 'Hello, friend!', error: null }
-        // First promise chain complete!
-        // Second promise chain complete!
-        ) => {
+    .then((message) => {
         console.log(message);
     });
 
